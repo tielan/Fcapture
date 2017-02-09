@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/fileName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:id="@+id/shareBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#2cb7f0"
+        android:gravity="center"
+        android:text="分享"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/delBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#2cb7f0"
+        android:gravity="center"
+        android:text="删除"
+        android:textColor="#ffffff" />
+</LinearLayout>
